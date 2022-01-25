@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 nvm_version=0.39.1
 
-## xcode
-sudo xcodebuild -license
-
 ## install brew
 if ! command -v brew &> /dev/null
 then
