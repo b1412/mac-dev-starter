@@ -1,5 +1,2 @@
-jenv version
-jenv global 11
-
-sudo jenv enable-plugin export
-sudo jenv enable-plugin maven
+eval "$(jenv init -)" && jenv enable-plugin export
+eval "$(jenv init -)" && jenv enable-plugin maven
